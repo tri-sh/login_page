@@ -1,0 +1,70 @@
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    margin: auto;
+    border-radius: 5px;
+    padding: 50px 150px;
+    background-color: rgba(0, 0, 0, 0.3);
+    text-align: center;
+    font-family: monospace;
+    opacity: 0.8;
+    font-size: 17px;
+}
+
+.icon img {
+    height: 40px;
+    filter: invert(100%);
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+}
+
+.create-account {
+    width: 50%;
+    text-align: left;
+    padding-right: 20px;
+    font-size: 14px;
+}
+
+.create-account input[type="text"],
+.create-account input[type="email"],
+.create-account input[type="password"],
+.create-account input[type="submit"] {
+    width: 100%;
+    padding: 7px;
+    margin-bottom: 20px;
+    border: none;
+    box-sizing: border-box;
+}
+
+.create-account input[type="submit"] {
+    padding: 6px;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    opacity: 1;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+}
+
+.create-account input[type="submit"]:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2); 
+}
+
+.create-account input[type="submit"]:active {
+    transform: translateY(1px);
+    box-shadow: none; 
+}

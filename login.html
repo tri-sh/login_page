@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+    <link rel="stylesheet" href="static/style.css" />
+</head>
+
+<body style='background-image: url("asset/16531.jpg");'>
+    
+    
+    <div class="container">
+        <div class="icon">
+            <img src="asset/brain-circuit.svg" />
+            <a href="createAC.html" class="create-account">Create Account</a>
+        </div>
+        <h2 class="login">Login</h2>
+        <div class="form-container">
+            <div class="login-form">
+                <form action="/home" method="post">
+                    <label for="username">Username</label><br />
+                    <input type="text" id="username" name="username" required autocomplete="off"/><br /><br />
+                    <label for="password">Password</label><br />
+                    <input type="password" id="password" name="password" required /><br /><br />
+                    <input type="submit" value="Login" />
+                </form>
+            </div>
+            <div class="vertical-ruler"></div>
+            <div class="login-buttons">
+                <ul>
+                    <li class="google">
+                        <a href="#" class="btn">
+                            <div class="button-container">
+                                <img class="img" src="asset/google-color-svgrepo-com.svg">
+                                <span class="span">Continue with Google</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="apple">
+                        <a href="#" class="btn">
+                            <div class="button-container">
+                                <img class="img" src="asset/apple-173-svgrepo-com.svg">
+                                <span class="span">Continue with Apple</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="github">
+                        <a href="#" class="btn">
+                            <div class="button-container">
+                                <img class="img"src="asset/github-mark-white.png">
+                                <span class="span">Continue with GitHub</span>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="error-container">
+            <p class="error-message">Can't login?
+        </div>
+    </div>
+</body>
+</html>

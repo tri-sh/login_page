@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Account</title>
+    <link rel="stylesheet" href="static/style.css">
+</head>
+<body style='background-image: url("asset/16531.jpg");'>
+    <div class="container">
+        <div class="icon">
+            <img src="asset/brain-circuit.svg" alt="Brain Circuit Icon">
+        </div>
+        <div class="form-container">
+            <div class="create-account">
+                <form action="/signup" method="post">
+                    <label for="firstname">First Name</label><br>
+                    <input type="text" id="firstname" name="firstname" required><br><br>
+                    <label for="lastname">Last Name</label><br>
+                    <input type="text" id="lastname" name="lastname" required><br><br>
+                    <label for="username">Username</label><br>
+                    <input type="text" id="username" name="username" required autocomplete="off"><br><br>
+                    <label for="email">Email</label><br>
+                    <input type="email" id="email" name="email" required><br><br>
+                    <label for="password">Password</label><br>
+                    <input type="password" id="password" name="password" required><br><br>
+                    <input type="submit" value="Create Account">
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
