@@ -29,17 +29,17 @@ body {
     justify-content: center;
 }
 
-.create-account {
+.create-account-form {
     width: 50%;
     text-align: left;
     padding-right: 20px;
     font-size: 14px;
 }
 
-.create-account input[type="text"],
-.create-account input[type="email"],
-.create-account input[type="password"],
-.create-account input[type="submit"] {
+.create-account-from input[type="text"],
+.create-account-from input[type="email"],
+.create-account-from input[type="password"],
+.create-account-from input[type="submit"] {
     width: 100%;
     padding: 7px;
     margin-bottom: 20px;
@@ -47,7 +47,7 @@ body {
     box-sizing: border-box;
 }
 
-.create-account input[type="submit"] {
+.create-account-from input[type="submit"] {
     padding: 6px;
     border-radius: 5px;
     background-color: #007bff;
@@ -59,12 +59,12 @@ body {
     transition: background-color 0.3s ease;
 }
 
-.create-account input[type="submit"]:hover {
+.create-account-from input[type="submit"]:hover {
     transform: translateY(-2px);
     box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2); 
 }
 
-.create-account input[type="submit"]:active {
+.create-account-from input[type="submit"]:active {
     transform: translateY(1px);
     box-shadow: none; 
 }
